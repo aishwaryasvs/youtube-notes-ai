@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-notes-ai"
+version = "0.1.0"
+description = "Local Streamlit app for generating structured notes from YouTube videos"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "youtube-notes-ai contributors" }]
+dependencies = [
+  "streamlit>=1.33.0",
+  "youtube-transcript-api>=0.6.2",
+  "faster-whisper>=1.1.0",
+  "yt-dlp>=2024.7.16",
+  "requests>=2.32.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["youtube_notes_ai*"]

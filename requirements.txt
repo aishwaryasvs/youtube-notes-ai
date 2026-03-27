@@ -1,0 +1,6 @@
+streamlit>=1.33.0
+youtube-transcript-api>=0.6.2
+faster-whisper>=1.1.0
+yt-dlp>=2024.7.16
+requests>=2.32.0
+pytest>=8.2.0
