@@ -25,7 +25,7 @@ No OpenAI APIs are used. Transcript + summarization run with free/local componen
 1. Clone and enter the repo:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/aishwaryasvs/youtube-notes-ai
 cd youtube-notes-ai
 ```
 
@@ -34,6 +34,20 @@ cd youtube-notes-ai
 ```bash
 python -m venv .venv
 source .venv/bin/activate
+```
+
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+Windows (Command Prompt):
+
+```bat
+python -m venv .venv
+.venv\Scripts\activate.bat
 ```
 
 3. Install dependencies:
