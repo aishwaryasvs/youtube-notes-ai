@@ -70,22 +70,6 @@ Open the URL shown in your terminal (usually `http://localhost:8501`).
 - Action items
 4. Download notes as Markdown.
 
-## Expected Output (Screenshots)
-
-Add screenshots to `docs/assets/` and they will render here.
-
-### Input + Settings
-
-![Input and settings screen](docs/assets/01-input-settings.png)
-
-### Generated Notes
-
-![Generated notes screen](docs/assets/02-generated-notes.png)
-
-### Transcript Tab + Download
-
-![Transcript and download screen](docs/assets/03-transcript-download.png)
-
 ## Requirements
 
 - Python 3.10+
